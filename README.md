@@ -7,6 +7,7 @@
 
 
 **Code explanation 1**
+
 dt = 1e-3  # Time step size (in ms)
 duration = delay + dur
 end_time = duration + end
