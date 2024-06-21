@@ -10,12 +10,10 @@
 **Code explanation 1**
 
 dt = 1e-3  # Time step size (in ms)
-duration = delay + dur
-end_time = duration + end
+
 stim_t = np.arange(0, duration, dt)  # Time array
 
 plus_wave_1 = amp1_1 * np.sin(2 * np.pi * freq1 * stim_t / sec_unit) 
-plus_wave_2 = amp1_2 * np.sin(2 * np.pi * freq2 * stim_t / sec_unit)
 
 -> sec_unit is about unit of time
   example) sec_unit = 1000 -> ms (unit)
