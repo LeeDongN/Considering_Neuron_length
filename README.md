@@ -22,5 +22,4 @@ plus_wave_1 = amp1_1 * np.sin(2 * np.pi * freq1 * stim_t / sec_unit)
 -> When u change frequency, then dt also should be changed
 
    1) frequency: 1e6, dt: at least 1e4
-   2) 
-   3) frequency: 1e9, dt: at least 1e7
+   2) frequency: 1e9, dt: at least 1e7
